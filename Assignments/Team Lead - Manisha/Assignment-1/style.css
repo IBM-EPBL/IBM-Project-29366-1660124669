@@ -1,0 +1,39 @@
+body{
+    margin:8%;
+    border:10px  double black;
+    background-color: rgb(190, 237, 237);
+    padding:5%;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0%;
+    padding-top: 5px;
+    margin-bottom: 0%; 
+}
+label{
+    font-size: 20px; 
+}
+input,#dropdown{
+    margin-left:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    resize:none;
+    margin-left:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#submit{
+    padding:10px;
+    background-color: rgb(15, 75, 75);
+    color:bisque;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow:5px 5px 3px rgb(62, 47, 201),-5px -5px 3px rgb(62, 47, 201);
+}
+#submit:hover{
+    background-color:bisque ;
+    color:rgb(15, 75, 75);
+}

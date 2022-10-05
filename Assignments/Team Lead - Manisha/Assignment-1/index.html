@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <title>Application Form</title>
+</head>
+
+<body>
+    <section id="head">
+        <h1 id="title">Application Form</h1>
+    </section>
+    <section id="form">
+        <form id="survey-form">
+            <label for="name" id="name-label">Name</label><br>
+            <input type="text" placeholder="Enter your Name" id="name" required><br>
+            <label for="email" id="email-label">Mail Id</label><br>
+            <input type="email" placeholder="Enter your Mail id" id="email" required><br>
+            <label for="mobile">Mobile</label><br>
+            <input id="mobile" type="Number" id="mobile" placeholder="Enter phone number" required><br>
+            <br>
+            <label for="gender">Gender</label><br>
+            <input id="gender" type="radio" name="gender" value="male">Male<br>
+            <input id="gender" type="radio" name="gender" value="female">Female<br>
+            <input id="gender" type="radio" name="gender" value="other">Others<br>
+            <label for="address">Address</label><br>
+            <textarea id="address" name="address" rows="3" cols="30" placeholder="Enter address"></textarea><br>
+            <label for="dropdown">Country</label><br>
+            <select id="dropdown">
+                <option value="INDIA">INDIA</option>
+                <option value="OTHER">OTHER</option>
+            </select><br>
+            <label for="state">State</label><br>
+            <input id="state" type="text" name="state" placeholder="Enter state" required><br>
+            <label for="city">City</label><br>
+            <input id="city" type="text" name="city" placeholder="Enter city" required><br>
+            <label for="password">Password</label><br>
+            <input id="password" type="password" name="password" placeholder="Enter password" required><br>
+            <label for="con_password">Confirm Password</label><br>
+            <input id="con_password" type="password" name="con_password" placeholder="Confirm password" required><br>
+            <label for="textarea">Leave your Comments</label><br>
+            <textarea rows="10" id="textarea" cols="30"></textarea><br>
+            <br>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </section>
+</body>
